@@ -25,7 +25,6 @@ The following are required :
 - python3
 - tensorflow 1.9.0 (works well even with CPU version)
 - opencv3
-- slim
 - slidingwindow
   - https://github.com/adamrehn/slidingwindow
 
