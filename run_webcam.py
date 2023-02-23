@@ -17,8 +17,6 @@ formatter = logging.Formatter('[%(asctime)s] [%(name)s] [%(levelname)s] %(messag
 ch.setFormatter(formatter)
 logger.addHandler(ch)
 
-fps_time = 0
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='tf-pose-estimation realtime webcam')
     parser.add_argument('--camera', type=int, default=0)
