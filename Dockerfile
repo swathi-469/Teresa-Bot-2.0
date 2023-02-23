@@ -1,7 +1,6 @@
 FROM python:3.6-stretch
 MAINTAINER Tanmay Thakur <tanmaythakurbrn2rule@gmail.com>
 
-# Install Build Utilities
 RUN apt-get update && \
 	apt-get install -y gcc make apt-transport-https ca-certificates build-essential
 
