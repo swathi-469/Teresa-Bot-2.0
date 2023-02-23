@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(tfpose_ros)
 
 
-add_definitions(-std=c++11)
+
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
